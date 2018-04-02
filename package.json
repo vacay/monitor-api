@@ -1,0 +1,24 @@
+{
+    "name": "vacay-monitor-api",
+    "author": "admin <admin@vacay.io>",
+    "description": "A music blogging platform with discovery services & cloud-based library.",
+    "version": "0.0.1",
+    "private": true,
+    "repository": {
+	"type": "git",
+	"url": "https://github.com/vacay/monitor-api"
+    },
+    "scripts": {},
+    "homepage": "http://vacay.io/",
+    "licenses": "MIT",
+    "dependencies": {
+	"express": "3.4.8",
+	"config-monitor": "file:config",
+	"monitor": "https://api.github.com/repos/vacay/monitor/tarball/0.1.15?access_token=27fa4fbedc7cc6d98a2abae1d99368920ba2ef23",
+	"log": "https://github.com/vacay/log/tarball/0.0.3"
+    },
+    "engines": {
+	"node": "0.10.x",
+	"npm": "1.3.x"
+    }
+}
